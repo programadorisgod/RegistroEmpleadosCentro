@@ -8,13 +8,14 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entidades;
 
 namespace Presentacion_GUI
 {
     public partial class RegistroClientes : Form
     {
         int p = -1;
-        
+        Cliente cliente = new Cliente();   
         public RegistroClientes()
         {
             InitializeComponent();
@@ -34,7 +35,7 @@ namespace Presentacion_GUI
             {
                 if (p == -1)
                 {
-
+                   // cliente.c
                 }
             }
         }
